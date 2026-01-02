@@ -1,0 +1,23 @@
+STEP A
+user.name=Emirhan Güner
+user.email=emirhan.guner@isik.edu.tr
+core.editor=nano
+
+STEP B
+(Local file listing shown in terminal history)
+
+STEP C
+Markdown Link: [Isik University](https://www.isikun.edu.tr/...)
+
+STEP D
+Rules: *.class, .DS_Store, .idea/
+
+STEP F
+Commits: satisfying requirement one
+Files: RangePrinter.java
+
+STEP M
+Differences:
+- Main vs Feature-1: Main has even numbers logic, Feature-1 prints all.
+- Main vs Feature-2: Main has even numbers, Feature-2 prints odd.
+- Main vs Feature-3: Identical logic.
