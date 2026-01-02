@@ -1,23 +1,58 @@
 STEP A
+Git configuration commands used:
+- git config --global user.name "Emirhan Güner"
+- git config --global user.email "23soft1019@isik.edu.tr"
+- git config --global user.name "Süleyman Burak Kutay"
+- git config --global user.email "23soft1023@isik.edu.tr"
+- git config --global core.editor "nano"
+
+Verification listing (git config --list):
 user.name=Emirhan Güner
-user.email=emirhan.guner@isik.edu.tr
+user.email=23soft1019@isik.edu.tr
+user.name=Süleyman Burak Kutay
+user.email=23soft1023@isik.edu.tr
 core.editor=nano
 
+
 STEP B
-(Local file listing shown in terminal history)
+Contents of the parent directory:
+README.md  hmk1/  hmk4/  .gitignore
+
+Contents of the local .git directory:
+HEAD  config  description  hooks/  info/  objects/  refs/
+
 
 STEP C
-Markdown Link: [Isik University](https://www.isikun.edu.tr/...)
+Markdown clickable link to Işık University Software Engineering department:
+[Işık Software Engineering](https://www.isikun.edu.tr/akademik/muhendislik-fakultesi/bolumler-ve-programlar/bilgisayar-muhendisligi/programlar/lisans-programi/yazilim-muhendisligi)
+
 
 STEP D
-Rules: *.class, .DS_Store, .idea/
+Rules in .gitignore file:
+*.class
+.DS_Store
+.idea/
+out/
+
 
 STEP F
-Commits: satisfying requirement one
-Files: RangePrinter.java
+Commits on feature-1 branch:
+- satisfying requirement one
+
+Files in hmk1 directory on feature-1 branch:
+- RangePrinter.java
+
+Files in hmk1 directory on main branch:
+- RangePrinter.java
+
+
+STEP J
+Commits on feature-2 branch:
+- satisfying requirement change two
+
 
 STEP M
-Differences:
-- Main vs Feature-1: Main has even numbers logic, Feature-1 prints all.
-- Main vs Feature-2: Main has even numbers, Feature-2 prints odd.
-- Main vs Feature-3: Identical logic.
+Differences between main and other branches:
+- Main vs feature-1: Main contains even numbers logic (merged from feature-3). feature-1 contains the original all-numbers logic.
+- Main vs feature-2: Main has even numbers logic; feature-2 has odd numbers logic.
+- Main vs feature-3: Both are identical after the conflict resolution.
