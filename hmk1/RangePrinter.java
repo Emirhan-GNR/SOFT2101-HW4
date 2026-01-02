@@ -10,7 +10,7 @@ public class RangePrinter {
     }
     public static void printRange(int start, int end) {
         for (int i = start + 1; i < end; i++) {
-            if (i % 2 != 0) System.out.print(i + " ");
+            if (i % 2 == 0) System.out.print(i + " ");
         }
         System.out.println();
     }
